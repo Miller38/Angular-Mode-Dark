@@ -1,0 +1,34 @@
+<div class="surface-100 p-3 flex justify-content-between lg:justify-content-between  align-items-center flex-wrap">
+  <div class="align-items-center flex">
+    <span class="line-height-3 text-md md:text-lg text-900 font-bold">Dinamic themes Primeng</span>
+  
+  </div>
+  
+  
+  <a pRipple class="flex align-items-end no-underline justify-content-center border-circle text-500 cursor-pointer transition-colors ">
+    <button class="p-button p-component" (click)="toggleTheme()">
+        Change Theme
+    </button>
+  </a>
+</div>
+
+
+
+<button pButton pRipple label="Submit" class="p-button-success"></button>
+<button class="p-button p-component">send</button>
+
+
+
+<p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
+  <ng-template pTemplate="header">
+      <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+  </ng-template>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+      quas!
+  </p>
+  <ng-template pTemplate="footer">
+      <p-button label="Save" icon="pi pi-check"></p-button>
+      <p-button label="Cancel" icon="pi pi-times" styleClass="p-button-secondary" [style]="{ 'margin-left': '.5em' }"></p-button>
+  </ng-template>
+</p-card>
